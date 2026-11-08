@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Vetroarts icon">
+  <rect width="64" height="64" rx="14" fill="#0F172A"/>
+  <rect x="18" y="10" width="28" height="44" rx="7" fill="none" stroke="#334155" stroke-width="2.5"/>
+  <path d="M25 24 L32 38 L39 24" fill="none" stroke="#0284C7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="46" r="1.5" fill="#0284C7"/>
+</svg>

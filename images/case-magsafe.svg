@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" width="100%" height="100%" role="img" aria-label="MagSafe-Compatible Phone Case Mockup">
+  <defs>
+    <linearGradient id="mag-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="mag-body" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="ring-glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <filter id="mag-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="320" height="420" rx="16" fill="url(#mag-bg)"/>
+
+  <g filter="url(#mag-shadow)" transform="translate(65, 30)">
+    <!-- Case Shell -->
+    <rect x="0" y="0" width="190" height="360" rx="36" fill="url(#mag-body)" stroke="#334155" stroke-width="2"/>
+
+    <!-- MagSafe Magnetic Ring Geometry -->
+    <g transform="translate(95, 195)">
+      <!-- Outer Magnetic Circle -->
+      <circle cx="0" cy="0" r="46" fill="none" stroke="#334155" stroke-width="7" opacity="0.8"/>
+      <circle cx="0" cy="0" r="46" fill="none" stroke="url(#ring-glow)" stroke-width="3"/>
+      
+      <!-- Magnetic Module Segments -->
+      <circle cx="0" cy="0" r="46" fill="none" stroke="#0F172A" stroke-width="4" stroke-dasharray="2, 6"/>
+
+      <!-- Inner Accent Ring -->
+      <circle cx="0" cy="0" r="38" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+
+      <!-- Alignment Pin (Bottom magnetic guide pill) -->
+      <rect x="-4" y="54" width="8" height="20" rx="4" fill="#334155"/>
+      <rect x="-3" y="55" width="6" height="18" rx="3" fill="url(#ring-glow)"/>
+    </g>
+
+    <!-- Camera Protection Island -->
+    <rect x="18" y="20" width="64" height="68" rx="16" fill="#0F172A" stroke="#475569" stroke-width="2"/>
+    <circle cx="36" cy="40" r="9.5" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="36" cy="40" r="4" fill="#0F172A"/>
+    <circle cx="64" cy="40" r="9.5" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="64" cy="40" r="4" fill="#0F172A"/>
+    <circle cx="36" cy="68" r="9.5" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/>
+    <circle cx="36" cy="68" r="4" fill="#0F172A"/>
+    <circle cx="64" cy="68" r="4" fill="#E2E8F0"/>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" width="100%" height="100%" role="img" aria-label="Rugged Heavy-Duty Armor Phone Case Mockup">
+  <defs>
+    <linearGradient id="rug-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="rugged-armor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accent-armor" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+    <filter id="rug-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="320" height="420" rx="16" fill="url(#rug-bg)"/>
+
+  <g filter="url(#rug-shadow)" transform="translate(65, 30)">
+    <!-- Heavy Duty Main Armor Body -->
+    <rect x="-4" y="-4" width="198" height="368" rx="40" fill="#0B0F19"/>
+
+    <!-- Reinforced Corner Air-Cushion Bumpers -->
+    <path d="M -4 40 L 16 16 L 40 -4 L -4 -4 Z" fill="url(#accent-armor)"/>
+    <path d="M 194 40 L 174 16 L 150 -4 L 194 -4 Z" fill="url(#accent-armor)"/>
+    <path d="M -4 324 L 16 348 L 40 364 L -4 364 Z" fill="url(#accent-armor)"/>
+    <path d="M 194 324 L 174 348 L 150 364 L 194 364 Z" fill="url(#accent-armor)"/>
+
+    <!-- Inner Armor Shield Plate -->
+    <rect x="10" y="10" width="170" height="340" rx="28" fill="url(#rugged-armor)" stroke="#334155" stroke-width="2"/>
+
+    <!-- Side Grip Tactile Ridges -->
+    <rect x="-3" y="120" width="4" height="20" rx="2" fill="#38BDF8"/>
+    <rect x="-3" y="150" width="4" height="20" rx="2" fill="#38BDF8"/>
+    <rect x="-3" y="180" width="4" height="20" rx="2" fill="#38BDF8"/>
+    <rect x="-3" y="210" width="4" height="20" rx="2" fill="#38BDF8"/>
+
+    <rect x="189" y="120" width="4" height="20" rx="2" fill="#38BDF8"/>
+    <rect x="189" y="150" width="4" height="20" rx="2" fill="#38BDF8"/>
+    <rect x="189" y="180" width="4" height="20" rx="2" fill="#38BDF8"/>
+    <rect x="189" y="210" width="4" height="20" rx="2" fill="#38BDF8"/>
+
+    <!-- Geometric Industrial Hex / Ridge Lines on Back -->
+    <polygon points="95,140 145,170 145,230 95,260 45,230 45,170" fill="none" stroke="#334155" stroke-width="2"/>
+    <polygon points="95,150 135,175 135,225 95,250 55,225 55,175" fill="#0B0F19" stroke="#0284C7" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Central Heavy-Duty Badge / Kickstand recess simulation -->
+    <rect x="65" y="185" width="60" height="30" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/>
+    <text x="95" y="203" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="8" font-weight="700" fill="#94A3B8" text-anchor="middle" letter-spacing="1">ARMOR TECH</text>
+
+    <!-- Raised Camera Lens Shield Island -->
+    <rect x="18" y="20" width="64" height="68" rx="16" fill="#0B0F19" stroke="url(#accent-armor)" stroke-width="2.5"/>
+    <circle cx="36" cy="40" r="9.5" fill="#1E293B" stroke="#64748B" stroke-width="1.5"/>
+    <circle cx="36" cy="40" r="4" fill="#0F172A"/>
+    <circle cx="64" cy="40" r="9.5" fill="#1E293B" stroke="#64748B" stroke-width="1.5"/>
+    <circle cx="64" cy="40" r="4" fill="#0F172A"/>
+    <circle cx="36" cy="68" r="9.5" fill="#1E293B" stroke="#64748B" stroke-width="1.5"/>
+    <circle cx="36" cy="68" r="4" fill="#0F172A"/>
+    <circle cx="64" cy="68" r="4" fill="#E2E8F0"/>
+  </g>
+</svg>

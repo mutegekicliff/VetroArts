@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" width="100%" height="100%" role="img" aria-label="Hybrid Bumper Phone Case Mockup">
+  <defs>
+    <linearGradient id="hybrid-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="hybrid-bumper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="hybrid-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F1F5F9" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#E2E8F0" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#CBD5E1" stop-opacity="0.85"/>
+    </linearGradient>
+    <filter id="hybrid-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="320" height="420" rx="16" fill="url(#hybrid-bg)"/>
+
+  <g filter="url(#hybrid-shadow)" transform="translate(65, 30)">
+    <!-- Outer Heavy-Duty Shock-Absorbing Bumper Frame -->
+    <rect x="-4" y="-4" width="198" height="368" rx="38" fill="url(#hybrid-bumper)"/>
+
+    <!-- Reinforced Corner Air-Pockets / Bumpers -->
+    <path d="M 0 36 Q 0 0 36 0 L 25 25 L 0 36 Z" fill="#334155"/>
+    <path d="M 190 36 Q 190 0 154 0 L 165 25 L 190 36 Z" fill="#334155"/>
+    <path d="M 0 324 Q 0 360 36 360 L 25 335 L 0 324 Z" fill="#334155"/>
+    <path d="M 190 324 Q 190 360 154 360 L 165 335 L 190 324 Z" fill="#334155"/>
+
+    <!-- Rigid Crystal Clear Acrylic Back Plate -->
+    <rect x="8" y="8" width="174" height="344" rx="28" fill="url(#hybrid-glass)" stroke="#94A3B8" stroke-width="1.5"/>
+
+    <!-- Dual material accent lines -->
+    <line x1="8" y1="100" x2="182" y2="100" stroke="#0284C7" stroke-width="2" opacity="0.4"/>
+    <line x1="8" y1="280" x2="182" y2="280" stroke="#0284C7" stroke-width="2" opacity="0.4"/>
+
+    <!-- Camera Bumper Island -->
+    <rect x="18" y="20" width="64" height="68" rx="16" fill="#0F172A" stroke="#475569" stroke-width="2"/>
+    <!-- Lenses -->
+    <circle cx="36" cy="40" r="9.5" fill="#1E293B" stroke="#0284C7" stroke-width="1.5"/>
+    <circle cx="36" cy="40" r="4" fill="#0F172A"/>
+    <circle cx="64" cy="40" r="9.5" fill="#1E293B" stroke="#0284C7" stroke-width="1.5"/>
+    <circle cx="64" cy="40" r="4" fill="#0F172A"/>
+    <circle cx="36" cy="68" r="9.5" fill="#1E293B" stroke="#0284C7" stroke-width="1.5"/>
+    <circle cx="36" cy="68" r="4" fill="#0F172A"/>
+    <circle cx="64" cy="68" r="4" fill="#E2E8F0"/>
+
+    <!-- Refraction streak -->
+    <polygon points="20,120 70,120 40,320 15,320" fill="#FFFFFF" opacity="0.35"/>
+  </g>
+</svg>
