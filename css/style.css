@@ -28,12 +28,12 @@
   --color-border-hover: #CBD5E1;   /* Hover state border */
   --color-border-dark: #334155;    /* Dark theme borders */
 
-  /* Distinctive Accent Colour (Single accent token system) */
-  --color-accent: #0284C7;         /* Refined vivid sapphire / tech cobalt */
-  --color-accent-hover: #0369A1;   /* Deepened accent for hover states */
-  --color-accent-active: #075985;  /* Active/pressed state */
-  --color-accent-light: #E0F2FE;   /* Soft tinted accent background */
-  --color-accent-border: #BAE6FD;  /* Soft accent border */
+  /* Distinctive Brand Accent Colour (From Official Vetroarts Logo: Warm Metallic Copper / Bronze) */
+  --color-accent: #B86B35;         /* Rich copper / bronze from logo fingerprint and bumper */
+  --color-accent-hover: #9E5624;   /* Deepened copper for hover states */
+  --color-accent-active: #7E3E16;  /* Active/pressed state */
+  --color-accent-light: #FDF5EF;   /* Soft tinted copper background */
+  --color-accent-border: #F7D8C3;  /* Soft copper border */
   --color-accent-contrast: #FFFFFF;/* Text rendered on accent background */
 
   /* Functional Status Tokens */
@@ -43,8 +43,8 @@
   --color-error: #DC2626;
   --color-error-bg: #FEF2F2;
   --color-error-border: #FECACA;
-  --color-info-bg: #F0F9FF;
-  --color-info-border: #BAE6FD;
+  --color-info-bg: #FDF7F2;
+  --color-info-border: #F7D8C3;
 
   /* Typography */
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -255,7 +255,7 @@ p:last-child {
 }
 
 .section-dark .section-eyebrow {
-  color: #38BDF8;
+  color: #E89D6C;
 }
 
 /* --------------------------------------------------------------------------
@@ -280,17 +280,17 @@ p:last-child {
 
 .announcement-badge {
   background-color: var(--color-primary-light);
-  color: #38BDF8;
+  color: #E89D6C;
   font-weight: 600;
   padding: 0.15rem 0.5rem;
   border-radius: var(--radius-full);
   font-size: 0.75rem;
-  border: 1px solid rgba(56, 189, 248, 0.2);
+  border: 1px solid rgba(232, 157, 108, 0.25);
 }
 
 /* Header */
 .site-header {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.98);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--color-border);
@@ -311,39 +311,31 @@ p:last-child {
   height: 4.5rem;
 }
 
-/* Brand Wordmark - Strictly simple text wordmark, no invented graphic logo */
-.brand-wordmark {
+/* Official Brand Logo */
+.brand-link {
   display: inline-flex;
-  align-items: baseline;
-  gap: 0.15rem;
-  font-size: 1.5rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  color: var(--color-primary);
+  align-items: center;
   text-decoration: none;
 }
 
-.brand-wordmark:hover {
-  color: var(--color-primary);
-}
-
-.brand-dot {
-  display: inline-block;
-  width: 7px;
-  height: 7px;
-  background-color: var(--color-accent);
-  border-radius: 50%;
-  margin-left: 2px;
-}
-
-.brand-subtitle {
+.brand-logo {
+  height: 42px;
+  width: auto;
   display: block;
-  font-size: 0.6875rem;
-  font-weight: 500;
-  color: var(--color-text-muted);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  margin-top: -3px;
+  object-fit: contain;
+  transition: opacity var(--transition-fast);
+}
+
+.brand-logo:hover {
+  opacity: 0.9;
+}
+
+.brand-logo-footer {
+  height: 46px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  margin-bottom: var(--space-sm);
 }
 
 /* Navigation Links */
@@ -595,7 +587,7 @@ p:last-child {
 }
 
 .hero-floating-card strong {
-  color: #38BDF8;
+  color: #E89D6C;
   display: block;
   font-size: 0.875rem;
   margin-bottom: 0.2rem;
@@ -792,9 +784,9 @@ p:last-child {
 }
 
 .manufacturing-status-pill {
-  background-color: rgba(56, 189, 248, 0.15);
-  color: #38BDF8;
-  border: 1px solid rgba(56, 189, 248, 0.3);
+  background-color: rgba(232, 157, 108, 0.15);
+  color: #E89D6C;
+  border: 1px solid rgba(232, 157, 108, 0.3);
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1138,7 +1130,7 @@ select.form-control {
 }
 
 .footer-links a:hover {
-  color: #38BDF8;
+  color: #E89D6C;
 }
 
 .footer-contact-item {
@@ -1153,7 +1145,7 @@ select.form-control {
 .footer-contact-item svg {
   width: 18px;
   height: 18px;
-  color: #38BDF8;
+  color: #E89D6C;
   flex-shrink: 0;
   margin-top: 2px;
 }
@@ -1163,7 +1155,7 @@ select.form-control {
 }
 
 .footer-contact-item a:hover {
-  color: #38BDF8;
+  color: #E89D6C;
 }
 
 .footer-notice {
